@@ -3,7 +3,7 @@
 Ein erneuter Versuch mit vim zu leben....
 
 ## Installation
-    git clone git://github.com/kuddl/dotvim.git ~/.vim
+    git clone https://github.com/kuddl/dotvim.git ~/.vim
 
     ln -s ~/.vim/vimrc ~/.vimrc
     ln -s ~/.vim/gvimrc ~/.gvimrc
