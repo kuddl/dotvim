@@ -3,6 +3,10 @@
 Ein erneuter Versuch mit vim zu leben....
 
 ## Installation
+    aus dem Weg
+    mv ~/.vim ~/_vim
+    mv ~/.vimrc ~/_vimrc
+    
     git clone https://github.com/kuddl/dotvim.git ~/.vim
 
     ln -s ~/.vim/vimrc ~/.vimrc
