@@ -8,6 +8,7 @@ set number
 set updatetime=750
 let mapleader=","
 set ts=2 sts=2 sw=2 expandtab
+set noswapfile
 
 " setzt den Zahlenmodus auf decimal für Zahlen mit führender Null
 set nrformats= 
