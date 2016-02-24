@@ -1,24 +1,29 @@
 # all about
 
-Ein erneuter Versuch mit vim zu leben....
+## Install one-liner
+curl https://raw.githubusercontent.com/kuddl/dotvim/master/install.sh | sh
 
-## Installation
-    aus dem Weg
-    mv ~/.vim ~/_vim
-    mv ~/.vimrc ~/_vimrc
-    
-    git clone https://github.com/kuddl/dotvim.git ~/.vim
+## Manuell installation
 
-    ln -s ~/.vim/vimrc ~/.vimrc
-    ln -s ~/.vim/gvimrc ~/.gvimrc
+# Backup
+mv ~/.vim ~/_vim
+mv ~/.vimrc ~/_vimrc
 
-    cd ~/.vim
-    git submodule update --init
+# Clone
+git clone https://github.com/kuddl/dotvim.git ~/.vim
 
-## Panthogen Plugin installieren
-    cd ~/.vim
-    git submodule add http://github.com/tpope/vim-fugitive.git bundle/fugitive
+# Link
+ln -s ~/.vim/vimrc ~/.vimrc
+ln -s ~/.vim/gvimrc ~/.gvimrc
 
-## Alle Plugins updaten
-    cd ~/.vim
-    git submodule foreach git pull origin master
+# Install Plugins
+cd ~/.vim
+git submodule update --init
+
+## update plugins
+cd ~/.vim
+git submodule foreach git pull origin master
+
+## How to install Plugins
+cd ~/.vim
+git submodule add http://github.com/tpope/vim-fugitive.git bundle/fugitive
