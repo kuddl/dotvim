@@ -91,9 +91,15 @@ augroup autosourcing
 augroup END
 
 " Shortcut to edit $MYVIMRC
-nmap <leader>rc :e $MYVIMRC<CR>
+nmap <leader>rc :ve ~/.vim/vimrc<CR>
 
-" 
-"
-"
+"------- ctags -----------"
+nmap <Leader>f :tag<space>
 
+
+
+
+"--------- Tipps --------"
+"- Press zz to center Line
+"- press ctrl+] to jump to definition
+"- 
