@@ -31,3 +31,6 @@
 [submodule "commentary"]
 	path = commentary
 	url = git@github.com:tpope/vim-commentary.git
+[submodule "bundle/airline-themes"]
+	path = bundle/airline-themes
+	url = git@github.com:vim-airline/vim-airline-themes.git
