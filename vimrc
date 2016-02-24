@@ -91,7 +91,7 @@ augroup autosourcing
 augroup END
 
 " Shortcut to edit $MYVIMRC
-nmap <leader>rc :ve ~/.vim/vimrc<CR>
+nmap <leader>rc :e $MYVIMRC<CR>
 
 "------- ctags -----------"
 nmap <Leader>f :tag<space>
