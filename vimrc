@@ -72,10 +72,14 @@ nmap <C-K> <C-W><C-K>
 nmap <C-H> <C-W><C-H>
 nmap <C-L> <C-W><C-L>
 
+
+"
 "-------------CtrP Mappings--------------"
+" needs ctags installed brew install ctags
 let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
 let g:ctrlp_match_window = 'top,order:ttb,min:1,max:30,results:30'
 
+nmap <c-p> :CtrlP<cr>
 nmap <c-r> :CtrlPBufTag<cr>
 nmap <c-E> :CtrlPMRUFiles<cr>
 
