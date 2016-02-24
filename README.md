@@ -1,26 +1,28 @@
-# all about
+# All about
+
+This is a new start with VIM. Maybe this time ...
 
 ## Install one-liner
 curl https://raw.githubusercontent.com/kuddl/dotvim/master/install.sh | sh
 
-## Manuell installation
+# Step by step installation
 
-# Backup
+## Backup
 mv ~/.vim ~/_vim
 mv ~/.vimrc ~/_vimrc
 
-# Clone
+## Clone
 git clone https://github.com/kuddl/dotvim.git ~/.vim
 
-# Link
+## Link
 ln -s ~/.vim/vimrc ~/.vimrc
 ln -s ~/.vim/gvimrc ~/.gvimrc
 
-# Install Plugins
+## Install Plugins
 cd ~/.vim
 git submodule update --init
 
-## update plugins
+## Update plugins
 cd ~/.vim
 git submodule foreach git pull origin master
 
