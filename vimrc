@@ -12,6 +12,10 @@ let mapleader=","
 set ts=2 sts=2 sw=2 expandtab
 set noswapfile
 set backspace=indent,eol,start
+set complete=.,w,u,b
+set noerrorbells visualbell t_vb= "No damn bells!
+set autowriteall                  "Automatically write the file when switching buffers.
+set complete=.,w,b,u              "Set our desired autocompletion matching.
 
 "-------------Search--------------"
 set hlsearch                 "Highlight all matched terms.
