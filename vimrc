@@ -9,7 +9,7 @@ filetype plugin indent on
 set number
 set updatetime=750
 let mapleader=","
-set ts=2 sts=2 sw=2 expandtab
+set ts=4 sts=4 sw=4 expandtab
 set noswapfile
 set backspace=indent,eol,start
 set autowriteall                  "Automatically write the file when switching buffers.
