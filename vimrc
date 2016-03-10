@@ -28,7 +28,12 @@ set nrformats=
 let g:airline_powerline_fonts = 1
 set laststatus=2
 let g:airline#extensions#tabline#enabled = 1
-let g:airline_theme='base16_3024'
+let g:airline_theme='kolor'
+" let g:airline_theme='base16_3024'
+" let g:airline_theme='solarized'
+" set background=dark
+" colorscheme solarized
+
 
 " Git Gutter
 " let g:gitgutter_realtime = 1
@@ -94,6 +99,10 @@ augroup END
 
 " Shortcut to edit $MYVIMRC
 nmap <leader>rc :e $MYVIMRC<CR>
+
+"------- gundo -----------"
+nnoremap <F5> :GundoToggle<CR>
+
 
 "------- ctags -----------"
 nmap <Leader>f :tag<space>
