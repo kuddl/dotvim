@@ -113,4 +113,4 @@ nmap <Leader>f :tag<space>
 "--------- Tipps --------"
 "- Press zz to center Line
 "- press ctrl+] to jump to definition
-"- 
+"- Gundo F5 
