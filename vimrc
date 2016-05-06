@@ -39,7 +39,7 @@ let g:airline_theme='kolor'
 " let g:gitgutter_realtime = 1
 " let g:gitgutter_eager = 1
 highlight clear SignColumn
-
+map s :2,$s/^pick/squash/<CR>
 " Term Farben
 if &term =~ "xterm"
   " 256 colors
